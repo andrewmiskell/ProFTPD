@@ -74,8 +74,8 @@ Source1:		proftpd.conf
 Source5:		proftpd-welcome.msg
 Source9:		proftpd.sysconfig
 Source10:		https://github.com/Castaglia/proftpd-mod_vroot/archive/v%{mod_vroot_version}.tar.gz
-Source11:       https://raw.github.com/jbenden/mod_clamav/master/mod_clamav.c
-Source12:       https://raw.github.com/jbenden/mod_clamav/master/mod_clamav.h
+Source11:       	https://raw.github.com/jbenden/mod_clamav/master/mod_clamav.c
+Source12:       	https://raw.github.com/jbenden/mod_clamav/master/mod_clamav.h
 
 Patch1:			proftpd-1.3.6-shellbang.patch
 Patch2:			proftpd.conf-no-memcached.patch
